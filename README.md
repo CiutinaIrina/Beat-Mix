@@ -1,5 +1,16 @@
 # Beat Mix
 
+## Important
+
+This is my attempt at completing the "Beat Mix" Codecademy project, from the "Back-End Programming" course path.
+This uploaded version is the unmodified version of the project that serves as backup in case it is needed, and also helps distinguish which files i am working on.
+
+**I do not take credit for creating any file present in this repository. This commit is simply here to serve as backup.**
+
+Here is the link to the original Codecademy page: https://www.codecademy.com/paths/create-a-back-end-app-with-javascript/tracks/bapi-javascript-arrays-loops-and-iterators/modules/project-beat-mix/informationals/bapi-p2-beat-mix
+
+Below this line you can see the README.md of this project as it was originally created.
+
 ## Project Overview
 
 In this project, you will write functions to implement logic for a beat-making music machine. By the end, you will have an application that can loop over a 16-step grid of four drum types and play them when they are activated. You will also write the functionality to invert each row of drums, clear each row of drums, or clear the entire board. Finally, you will build the functionality to retrieve and save presets to a server.
