@@ -3,9 +3,19 @@
 ## Important
 
 This is my attempt at completing the "Beat Mix" Codecademy project, from the "Back-End Programming" course path.
-This uploaded version is the unmodified version of the project that serves as backup in case it is needed, and also helps distinguish which files i am working on.
 
-**I do not take credit for creating any file present in this repository. This commit is simply here to serve as backup.**
+The project is structured in 3 parts:
+
++ Part 1: the *script.js* code: this is the building block of the code that handles the game logic.
++ Part 2: the *presetHandler.js* code: this is the code that handles the server side of the project.
++ Part 3: the bonus task: the function that plays multiple synthesizer notes.
+
+This is the version where part 1 is finished and free of any kind of errors. Part 1 consists of the basic functions that handle the game's logic, like a reset button, a switch button,
+and an input function.
+
+My work ca be read inside the **script.js** file.
+
+**I do not take credit for creating any other file present in this repository.**
 
 Here is the link to the original Codecademy page: https://www.codecademy.com/paths/create-a-back-end-app-with-javascript/tracks/bapi-javascript-arrays-loops-and-iterators/modules/project-beat-mix/informationals/bapi-p2-beat-mix
 
