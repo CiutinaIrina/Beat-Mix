@@ -10,10 +10,11 @@ The project is structured in 3 parts:
 + Part 2: the *presetHandler.js* code: this is the code that handles the server side of the project.
 + Part 3: the bonus task: the function that plays multiple synthesizer notes.
 
-This is the version where part 1 is finished and free of any kind of errors. Part 1 consists of the basic functions that handle the game's logic, like a reset button, a switch button,
-and an input function.
+This is the version where part 2 is finished and free of any kind of errors. 
+Part 1 consists of the basic functions that handle the game's logic, like a reset button, a switch button and an input function.
+Part 2 consists of code that handles basic GET and PUT requests on the game's preset.
 
-My work ca be read inside the **script.js** file.
+My work ca be read inside the **script.js** and **presetHandler.js** files.
 
 **I do not take credit for creating any other file present in this repository.**
 

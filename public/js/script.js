@@ -111,9 +111,6 @@ const invert = (drumName) => {
 }
 /*Debugging
 
-T2 Failed tests
 
--don't mutate arrays with out-of-range index arguments
--don't mutate arrays with negative index arguments
 
 */
