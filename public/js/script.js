@@ -109,8 +109,32 @@ const invert = (drumName) => {
 
     return drums;
 }
-/*Debugging
 
+//Bonus Task
 
-
-*/
+const getNeighborPads = (x,y,size) => {
+    //Corner Case
+    let hood = [];
+    if(x<0 || y<0 || x>=size || y>=size){
+        hood = [];
+    }
+    else{
+        hood[0] = 'filler';
+        if(x-1>=0){
+            hood.push([x-1,y]);
+        }
+        if(y-1>=0){
+            hood.push([x,y-1]);
+        }
+        if(x+1<size){
+            hood.push([x+1,y]);
+        }
+        if(y+1<size){
+           hood.push([x,y+1]);
+        }
+        let that = hood.shift();
+    }
+    return hood;
+}
+//Debugging
+ok(getNeighborPads(4, 0, 4));
